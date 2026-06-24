@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hardenberg Roleplay | HRP</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#07010d;
+    color:white;
+}
+
+header{
+    background:linear-gradient(90deg,#12001d,#24003d,#12001d);
+    padding:20px;
+    position:sticky;
+    top:0;
+    z-index:999;
+    border-bottom:2px solid #ff00ff;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#ff00ff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1511512578047-dfb367046420');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#ff00ff;
+    text-shadow:0 0 25px #ff00ff;
+}
+
+.hero p{
+    font-size:22px;
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:#ff00ff;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    box-shadow:0 0 20px #ff00ff;
+}
+
+.container{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    color:#ff00ff;
+    margin-bottom:40px;
+}
+
+.card{
+    background:#13001f;
+    border:1px solid #ff00ff;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 0 15px rgba(255,0,255,.4);
+}
+
+.card h3{
+    color:#ff00ff;
+    margin-bottom:15px;
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin:10px 0;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:2px solid #ff00ff;
+    margin-top:40px;
+}
+
+.discord{
+    text-align:center;
+    padding:50px;
+}
+
+.discord a{
+    background:#5865F2;
+    color:white;
+    padding:15px 30px;
+    border-radius:10px;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">HRP | HARDENBERG ROLEPLAY</div>
+
+<ul>
+<li><a href="#regels">Regels</a></li>
+<li><a href="#overvallen">Overvallen</a></li>
+<li><a href="#overheid">Overheid</a></li>
+<li><a href="#discord">Discord</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>HARDENBERG ROLEPLAY</h1>
+<p>De ultieme Nederlandse FiveM Roleplay ervaring</p>
+<a href="#regels" class="btn">Bekijk Regels</a>
+</section>
+
+<div class="container">
+
+<h2 class="section-title" id="regels">Algemene Regels</h2>
+
+<div class="card">
+<h3>Basis Regels</h3>
+<ul>
+<li>Respecteer alle spelers en staff.</li>
+<li>Geen cheats, hacks of exploits.</li>
+<li>Geen racisme of discriminatie.</li>
+<li>Geen bedreigingen.</li>
+<li>Staff heeft altijd het laatste woord.</li>
+<li>Gebruik gezond verstand.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Roleplay Regels</h3>
+<ul>
+<li>Geen FailRP.</li>
+<li>Geen Powergaming.</li>
+<li>Geen Metagaming.</li>
+<li>Geen Combat Logging.</li>
+<li>FearRP verplicht.</li>
+<li>New Life Rule respecteren.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>RDM & VDM</h3>
+<ul>
+<li>Random Deathmatch verboden.</li>
+<li>Vehicle Deathmatch verboden.</li>
+<li>Geweld alleen met geldige RP-aanleiding.</li>
+</ul>
+</div>
+
+<h2 class="section-title">Rippen & Scammen</h2>
+
+<div class="card">
+<h3>Rippen</h3>
+<ul>
+<li>Geen nieuwe spelers rippen.</li>
+<li>Geen rippen in safezones.</li>
+<li>Geen donatie-items rippen.</li>
+<li>Geen overheidspersoneel rippen tijdens dienst.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Scammen</h3>
+<ul>
+<li>Geen Discord scams.</li>
+<li>Geen OOC scams.</li>
+<li>Geen nieuwe spelers scammen.</li>
+<li>Geen donatie-items scammen.</li>
+</ul>
+</div>
+
+<h2 class="section-title" id="overvallen">Overval Regels</h2>
+
+<div class="card">
+<h3>Winkel Overval</h3>
+<ul>
+<li>Minimaal 2 politie aanwezig.</li>
+<li>Geen combat logging.</li>
+<li>Geen exploits.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Bank Overval</h3>
+<ul>
+<li>Minimaal 4 politie aanwezig.</li>
+<li>Minimaal 1 gijzelaar.</li>
+<li>Onderhandelingen verplicht.</li>
+<li>Realistische roleplay verplicht.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Juwelier Overval</h3>
+<ul>
+<li>Minimaal 5 politie aanwezig.</li>
+<li>Geen mass-RDM.</li>
+<li>Vluchtroute moet realistisch zijn.</li>
+</ul>
+</div>
+
+<h2 class="section-title" id="overheid">Overheid Regels</h2>
+
+<div class="card">
+<h3>Politie</h3>
+<ul>
+<li>Geen corruptie.</li>
+<li>Geen misbruik van bevoegdheden.</li>
+<li>Professioneel gedrag verplicht.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Ambulance</h3>
+<ul>
+<li>Neutraal blijven.</li>
+<li>Professioneel handelen.</li>
+<li>Geen informatie lekken.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Justitie</h3>
+<ul>
+<li>Onafhankelijk handelen.</li>
+<li>Geen vriendjespolitiek.</li>
+</ul>
+</div>
+
+<h2 class="section-title">Voertuig Regels</h2>
+
+<div class="card">
+<ul>
+<li>Geen voertuig misbruik.</li>
+<li>Realistisch rijden.</li>
+<li>Geen vehicle exploits.</li>
+<li>Geen VDM.</li>
+</ul>
+</div>
+
+<h2 class="section-title">Staff Regels</h2>
+
+<div class="card">
+<ul>
+<li>Geen staff abuse.</li>
+<li>Altijd neutraal blijven.</li>
+<li>Iedereen gelijk behandelen.</li>
+<li>Respectvol communiceren.</li>
+</ul>
+</div>
+
+<div class="discord" id="discord">
+<h2>Discord Server</h2>
+<br>
+<a href="#">JOIN DISCORD</a>
+</div>
+
+</div>
+
+<footer>
+© 2025 Hardenberg Roleplay | HRP<br>
+Regel is regel. Onwetendheid van de regels is geen excuus.
+</footer>
+
+</body>
+</html>
